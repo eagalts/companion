@@ -1,0 +1,25 @@
+[
+  {
+    "login": "admin",
+    "password": "admin",
+    "name": "Admin",
+    "city": "Moscow"
+  },
+  {
+    "login": "User1",
+    "password": "sample1",
+    "name": "Name",
+    "city": "Moscow"
+  },
+  {
+    "login": "User2",
+    "password": "sample1",
+    "name": "Name",
+    "city": "Moscow"
+  },
+  {
+    "login": "User3",
+    "password": "sample1",
+    "name": "Name",
+    "city": "Moscow"
+  }

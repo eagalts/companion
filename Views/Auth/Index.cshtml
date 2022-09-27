@@ -1,0 +1,17 @@
+﻿@model Class
+@{
+    ViewData["Title"] = "Вход";
+}
+<h1>Вход</h1>
+
+<form method="post" asp-controller="Auth" asp-action="Check">
+    <label asp-for="login"></label>
+    <input asp-for="login"/>
+    <span asp-validation-for="login"></span>
+
+    <label asp-for="password"></label>
+    <input asp-for="password" />
+    <span asp-validation-for="password"></span>
+
+    <input type="submit" value="Войти"/>
+</form>
